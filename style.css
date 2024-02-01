@@ -1,0 +1,63 @@
+
+/*
+SELECTOR {
+    PROPERTY: VALUE;
+    PROPERTY: VALUE;
+    PROPERTY: VALUE;
+}
+*/
+/*  */
+:root
+{
+  --color1:#A12724;
+  --color2:#3D3D36;
+  --color3:#FDD17C;
+  --color4:#CAC5C5;
+  --color5:#8D8F86;
+  
+  --font: "kanit", sans-serif;
+}
+
+/* Score: 0,0,0,1 */
+h1 {
+  color: red; 
+}
+
+/* Score: 0,0,0,1 */
+p {
+  color: blue;
+  font-family: var(--font);
+}
+
+/* Score: 0,0,1,0  */
+.indent {
+  text-indent: 32px;
+}
+
+.first:first-letter {
+  background: orange;
+  font-size: 2em;
+}
+
+/* Score: 0,1,0,0 */
+#cta {
+  color: red;
+  background: red;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* Score: 0,1,1,0 */
+#cta:link {
+  color: white;
+  background: blue;
+  text-decoration: none;
+}
+
+#cta:hover {
+  background: red;
+  color: blue;
+  padding: 1em;
+  transition: all 1s;
+}
